@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+<body class="main">
+
+
+  <div class="wrapper">
+
+    <div class="header">
+        <div class="mark">calc</div> 
+
+        <div class="toggle-container">
+
+            <div class="themes">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+            </div>
+
+            <div class="title">themes</div>
+    
+            <div class="toggle">
+                
+                <input type="radio" name="position"  checked>
+                <input type="radio" name="position" >
+                <input type="radio" name="position" >
+    
+                <div class="btn"></div>
+    
+            </div>
+
+        </div>
+</div>
+
+
+    <div class="calculator">
+
+        <div class="screen-container">
+            <input type="text" name="screen"  class="screen" value="" readonly>
+        </div>
+
+        <div class="keypad">
+
+            <input type="button" value="7" class="key key-classic">
+            <input type="button" value="8" class="key key-classic">
+            <input type="button" value="9" class="key key-classic">
+
+            <input type="button" value="DEL" class="key key-delete">
+
+            <input type="button" value="4" class="key key-classic">
+            <input type="button" value="5" class="key key-classic">
+            <input type="button" value="6" class="key key-classic">
+
+            <input type="button" value="+" class="key key-classic">
+                
+            <input type="button" value="1" class="key key-classic">
+            <input type="button" value="2" class="key key-classic">
+            <input type="button" value="3" class="key key-classic">
+
+            <input type="button" value="-" class="key key-classic">
+            
+            <input type="button" value="." class="key key-classic">
+            <input type="button" value="0" class="key key-classic">
+            <input type="button" value="/" class="key key-classic">
+            
+            <input type="button" value="x" class="key key-classic">
+
+            <input type="button" value="RESET" class="key key-reset">
+            <input type="button" value="=" class="key key-equal">
+        </div>
+
+
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">BadouDev</a>.
+    </div>
+    
+    
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
